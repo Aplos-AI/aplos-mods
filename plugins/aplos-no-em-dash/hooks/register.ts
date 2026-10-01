@@ -12,7 +12,7 @@ let rewritten = 0
 
 export const register: Register = (on) => {
   on('session.start', async ($, e, next) => {
-    await $.command.register({ name: 'em-dash', description: 'Show what no-em-dash has blocked and rewritten' })
+    await $.command.register({ name: 'em-dash', description: 'Show what aplos-no-em-dash has blocked and rewritten' })
     return next(e)
   })
 

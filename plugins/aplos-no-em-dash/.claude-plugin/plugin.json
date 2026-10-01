@@ -1,0 +1,18 @@
+{
+  "name": "aplos-no-em-dash",
+  "version": "0.2.0",
+  "description": "Stops Claude from writing em dashes into files, commits, PRs and outbound messages, and strips them from its replies",
+  "author": {
+    "name": "Aplos AI",
+    "url": "https://aplosai.com"
+  },
+  "license": "MIT",
+  "displayName": "Aplos No Em Dash",
+  "homepage": "https://github.com/Aplos-AI/aplos-mods",
+  "repository": "https://github.com/Aplos-AI/aplos-mods",
+  "keywords": [
+    "mod",
+    "writing-style",
+    "guardrails"
+  ]
+}
