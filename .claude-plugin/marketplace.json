@@ -1,0 +1,10 @@
+{
+  "name": "aplos-mods",
+  "owner": { "name": "Aplos AI", "url": "https://aplosai.com" },
+  "metadata": { "description": "Claude Code mods built from real usage data: house-style enforcement and guardrails for people who ship fast." },
+  "plugins": [
+    { "name": "no-em-dash", "source": "./plugins/no-em-dash", "description": "Keeps em dashes out of files, commits, PRs, outbound messages and Claude's own replies." },
+    { "name": "build-guard", "source": "./plugins/build-guard", "description": "Asks per item before deleting build output, binaries, git repos or project folders. Caches pass." },
+    { "name": "secret-redactor", "source": "./plugins/secret-redactor", "description": "Redacts keys, tokens and JWTs from tool output before Claude reads them. Vendored from claude-code-templates (MIT)." }
+  ]
+}

@@ -1,0 +1,1 @@
+{ "name": "build-guard", "version": "0.1.0", "description": "Asks per item before Claude deletes build output, dist folders, app binaries or whole project directories. Caches pass through.", "author": { "name": "Aplos AI" }, "license": "MIT" }

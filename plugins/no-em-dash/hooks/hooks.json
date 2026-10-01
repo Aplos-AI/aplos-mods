@@ -1,0 +1,1 @@
+{ "description": "no-em-dash hooks module", "modules": ["./register.ts"] }

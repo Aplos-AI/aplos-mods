@@ -1,0 +1,1 @@
+{ "name": "no-em-dash", "version": "0.1.0", "description": "Stops Claude from writing em dashes into files, commits, PRs and outbound messages, and strips them from its replies", "author": { "name": "Aplos AI" }, "license": "MIT" }
